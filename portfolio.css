@@ -90,6 +90,10 @@ nav a {
   line-height: 30px;
 }
 /* main section styles */
+main{
+  max-width: 1140px;
+  margin: 0px auto;
+}
 /* about section */
 .about {
   /* width: 900px;
@@ -98,4 +102,19 @@ nav a {
   background: #fff8f3;
   padding: 130px;
   margin: 130px 0px;
+}
+.section-info-container{
+  display: flex;
+  justify-content: space-around;
+   
+}
+.about-inf{
+  text-align: center;
+  
+}
+.info-name{
+  color: #474747
+}
+.info-data{
+  color: #757575;
 }
