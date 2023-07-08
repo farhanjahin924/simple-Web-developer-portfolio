@@ -183,6 +183,10 @@ footer {
 }
 .footer-column {
   width: 50%;
+
+}
+.column-title{
+  padding-top: 50px;
 }
 form input,textarea {
   margin-bottom: 25px;
@@ -191,7 +195,7 @@ form input,textarea {
   background: var(--white-color, #fff);
   width: 461px;
   flex-shrink: 0;
-  padding: 28px 35px;
+  padding: 20px 35px;
   border: 0;
   border-radius: 5px;
   background-color: #FFFFFF;
