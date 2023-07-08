@@ -20,10 +20,10 @@ body {
   font-size: 35px;
   font-weight: 700;
 }
-.section-des{
+.section-des {
   color: var(--dark-03, #757575);
-text-align: center;
-font-size: 18px;
+  text-align: center;
+  font-size: 18px;
 }
 /* navigation css */
 
@@ -90,7 +90,7 @@ nav a {
   line-height: 30px;
 }
 /* main section styles */
-main{
+main {
   max-width: 1140px;
   margin: 0px auto;
 }
@@ -103,18 +103,33 @@ main{
   padding: 130px;
   margin: 130px 0px;
 }
-.section-info-container{
+.section-info-container {
   display: flex;
   justify-content: space-around;
-   
 }
-.about-inf{
+.about-inf {
   text-align: center;
+}
+.info-name {
+  color: #474747;
+}
+.info-data {
+  color: #757575;
+}
+/* slkfl;sdkjf */
+.skill-description {
+  padding: 30px 150px;
+}
+.skill-container {
+  display: flex;
+  
   
 }
-.info-name{
-  color: #474747
-}
-.info-data{
-  color: #757575;
+.skill {
+  padding: 25px;
+  border: #181818;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  gap: 24px;
 }
